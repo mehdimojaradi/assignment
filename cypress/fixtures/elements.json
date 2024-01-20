@@ -1,0 +1,32 @@
+{
+  "title": "Elements",
+  "web_tables": "Web Tables",
+  "$btn_add": "#addNewRecordButton",
+  "modal_data": {
+    "firstname": {
+      "$": "#firstName",
+      "val": "LiLi"
+    },
+    "lastname": {
+      "$": "#lastName",
+      "val": "Kingstone"
+    },
+    "email": {
+      "$": "#userEmail",
+      "val": "test@test.com"
+    },
+    "age": {
+      "$": "#age",
+      "val": "30"
+    },
+    "salary": {
+      "$": "#salary",
+      "val": "12345"
+    },
+    "department": {
+      "$": "#department",
+      "val": "QA"
+    }
+  },
+  "$btn_modal_submit": "#submit"
+}

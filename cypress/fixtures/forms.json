@@ -1,0 +1,66 @@
+{
+  "title": "Forms",
+  "practice_form": "Practice Form",
+  "registration": {
+    "firstname": {
+      "$": "#firstName",
+      "val": "Mehdi"
+    },
+    "lastname": {
+      "$": "#lastName",
+      "val": "Mojaradi"
+    },
+    "email": {
+      "$": "#userEmail",
+      "val": "test@test.com"
+    },
+    "gender": {
+      "$": "#gender-radio-1",
+      "val": "Male"
+    },
+    "mobile": {
+      "$": "#userNumber",
+      "val": "0123456789"
+    },
+    "birthday": {
+      "$": "#dateOfBirthInput",
+      "$date_picker": ".react-datepicker__month-container",
+      "day": "15",
+      "val": "15 January,2024"    
+    },
+    "subject": {
+      "$": "#subjectsInput",
+      "val": "Computer Science",
+      "$chips": "#react-select-2-option-0"
+    },
+    "hobbies": {
+      "$": "#hobbies-checkbox-2",
+      "val": "2",
+      "label": "Reading"
+    },
+    "address": {
+      "$": "#currentAddress",
+      "val": "Iran"
+    },
+    "state": {
+      "$": "#react-select-3-input",
+      "$val": "#react-select-3-option-0",
+      "val": "NCR"
+    },
+    "city": {
+      "$": "#react-select-4-input",
+      "$val": "#react-select-4-option-0",
+      "val": "Delhi"
+    },
+    "file": {
+      "$": "#uploadFile",
+      "name": "toyFile.png"
+    },
+    "$btn_submit": "#submit",
+    "modal_content": {
+      "$": ".modal-content",
+      "successful_submited": "Thanks for submitting the form",
+      "$btn_close": "#closeLargeModal"
+    }
+  }
+}
